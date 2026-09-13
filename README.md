@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="web/public/assets/wordmark-dark.png" />
-  <img src="web/public/assets/wordmark-light.png" alt="Audit Doctor" width="280" />
+  <img src="web/public/assets/wordmark-light.png" alt="Audit Doctor" width="480" />
 </picture>
 
 ### Comprehensive Web Application Production Readiness Auditor & AI Agent Fixer Generator
@@ -13,7 +13,7 @@
 
 [![Website](https://img.shields.io/badge/Website-audit--doctor.vercel.app-000000?style=flat-square)](https://audit-doctor.vercel.app)
 [![npm](https://img.shields.io/npm/v/audit-doctor?style=flat-square&label=audit-doctor&color=cb3837)](https://www.npmjs.com/package/audit-doctor)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.md)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 [**Live Demo →**](https://audit-doctor.vercel.app) · [**NPM Package →**](https://www.npmjs.com/package/audit-doctor) · [**GitHub Repo →**](https://github.com/dqev/audit-doctor)
 
@@ -145,7 +145,7 @@ Then tell your AI Agent:
 
 ## License
 
-Released under the [MIT License](LICENSE.md).
+Released under the [MIT License](LICENSE).
 
 <div align="center">
 <br/>
