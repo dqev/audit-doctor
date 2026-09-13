@@ -21,12 +21,6 @@
 
 <br/>
 
-<div align="center">
-  <img src="web/public/assets/og.png" alt="Audit Doctor Banner" width="100%" />
-</div>
-
-<br/>
-
 ## Why Audit Doctor
 
 Every production web application needs to meet essential standards for SEO, performance, accessibility, security, and user experience. `audit-doctor` automatically scans your project, calculates a 0-100 readiness score, and generates actionable AI agent directives so your AI tools can fix missing features automatically.
