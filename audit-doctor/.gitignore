@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# builds & outputs
+dist
+coverage
+
+# env & logs
+.env
+.env.local
+*.log
+
+# system & OS
+.DS_Store
+
+# generated audit reports
+AUDIT_REPORT.md
+AGENTS.md
+.agents/skills/audit-fixer

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --card-bg: #1c1c1c;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html, body, button, input, select, textarea {
+  font-family: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+code, pre, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://audit-doctor.vercel.app/sitemap.xml

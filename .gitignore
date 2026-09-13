@@ -1,0 +1,50 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# builds & outputs
+dist
+.next
+out
+build
+coverage
+
+# env & secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# system & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE & editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# vercel
+.vercel
+
+# reports & generated test files
+AUDIT_REPORT.md
+AGENTS.md
+.agents/skills/audit-fixer
