@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../web/public/assets/wordmark-dark.png" />
-  <img src="../web/public/assets/wordmark-light.png" alt="Audit Doctor" width="280" />
+  <source media="(prefers-color-scheme: dark)" srcset="web/public/assets/wordmark-dark.png" />
+  <img src="web/public/assets/wordmark-light.png" alt="Audit Doctor" width="280" />
 </picture>
 
 ### Comprehensive Web Application Production Readiness Auditor & AI Agent Fixer Generator
@@ -13,7 +13,7 @@
 
 [![Website](https://img.shields.io/badge/Website-audit--doctor.vercel.app-000000?style=flat-square)](https://audit-doctor.vercel.app)
 [![npm](https://img.shields.io/npm/v/audit-doctor?style=flat-square&label=audit-doctor&color=cb3837)](https://www.npmjs.com/package/audit-doctor)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/dqev/audit-doctor/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.md)
 
 [**Live Demo →**](https://audit-doctor.vercel.app) · [**NPM Package →**](https://www.npmjs.com/package/audit-doctor) · [**GitHub Repo →**](https://github.com/dqev/audit-doctor)
 
@@ -22,7 +22,7 @@
 <br/>
 
 <div align="center">
-  <img src="../web/public/assets/og.png" alt="Audit Doctor Banner" width="100%" />
+  <img src="web/public/assets/og.png" alt="Audit Doctor Banner" width="100%" />
 </div>
 
 <br/>
@@ -36,6 +36,15 @@ Every production web application needs to meet essential standards for SEO, perf
 - **AI Agent Directives:** Generates `AGENTS.md` and `.agents/skills/audit-fixer/SKILL.md` to instruct AI Coding Agents (Antigravity, Cursor, Claude Code, Windsurf) step-by-step.
 - **CI/CD Ready:** Use `--score-only` or `--json` to enforce quality gates in GitHub Actions or Vercel deployments.
 - **Zero Config:** Runs instantly using `npx audit-doctor .`.
+
+<br/>
+
+## Packages
+
+| Package | Path | Latest | Install / Run |
+| --- | --- | --- | --- |
+| **CLI & Auditor Core** | [`audit-doctor`](audit-doctor) | [![npm](https://img.shields.io/npm/v/audit-doctor?style=flat-square&label=)](https://www.npmjs.com/package/audit-doctor) | `npx audit-doctor .` |
+| **Web Showcase** | [`web`](web) | Live | [audit-doctor.vercel.app](https://audit-doctor.vercel.app) |
 
 <br/>
 
@@ -88,23 +97,6 @@ Then tell your AI Agent:
 
 <br/>
 
-## Programmatic Usage (Node.js API)
-
-```typescript
-import { runAuditScan } from 'audit-doctor';
-
-const result = await runAuditScan({
-  cwd: './my-app',
-  generateReport: true,
-  generateAgentPrompt: true,
-});
-
-console.log(`Health Score: ${result.scoreResult.overallScore}/100`);
-console.log(`Grade: ${result.scoreResult.grade}`);
-```
-
-<br/>
-
 ## The 39 Audited Checklist Standards
 
 | Category | Standard ID | Audit Description |
@@ -153,7 +145,7 @@ console.log(`Grade: ${result.scoreResult.grade}`);
 
 ## License
 
-Released under the [MIT License](https://github.com/dqev/audit-doctor/blob/main/LICENSE).
+Released under the [MIT License](LICENSE.md).
 
 <div align="center">
 <br/>

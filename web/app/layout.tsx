@@ -8,10 +8,8 @@ export const metadata: Metadata = {
   description:
     "Comprehensive auditor & AI agent fixer generator for Next.js, React, Vite, Remix, Astro, Svelte, and Vue web applications.",
   icons: {
-    icon: [
-      { url: "/assets/logo.webp", type: "image/webp" },
-      { url: "/assets/logo.svg", type: "image/svg+xml" },
-    ],
+    icon: "/assets/logo.webp",
+    shortcut: "/assets/logo.webp",
     apple: "/assets/logo.webp",
   },
   openGraph: {
